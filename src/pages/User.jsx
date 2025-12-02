@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row, Col, Card, Form, Button, Alert } from 'react-bootstrap';
-import bgImage from '../../img/Fondo.webp';
+import bgImage from '../../public/img/Fondo.webp';
 
 function User() {
   const [user, setUser] = useState({ name: '', email: '', address: '' });
