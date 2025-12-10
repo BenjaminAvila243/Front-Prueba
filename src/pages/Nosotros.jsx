@@ -4,6 +4,7 @@ import Text from '../components/atoms/Text';
 import Button from '../components/atoms/Button';
 import ProductCard from '../components/organisms/ProductCard';
 import products from '../data/Products';
+import Image from '../components/atoms/Image.jsx';
 
 function Nosotros() {
   const featuredProducts = products.slice(0, 3);
