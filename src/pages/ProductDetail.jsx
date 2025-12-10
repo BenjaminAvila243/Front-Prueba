@@ -12,7 +12,7 @@ import { Alert } from 'react-bootstrap';
 function ProductDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
-  const [products, setProduct] = useState(() => getProductById(id));
+  const [product, setProduct] = useState(() => getProductById(id));
 
   useEffect(() => {
     setProduct(getProductById(id));
