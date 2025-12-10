@@ -9,10 +9,10 @@ import Button from '../components/atoms/Button.jsx';
 import { useNavigate } from 'react-router-dom';
 import { Alert } from 'react-bootstrap';
 
-function ProductDetail(product) {
+function ProductDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
-  const [ setProduct] = useState(() => getProductById(id));
+  const [products, setProduct] = useState(() => getProductById(id));
 
   useEffect(() => {
     setProduct(getProductById(id));
