@@ -5,14 +5,14 @@ const Products = [
     name: 'Fuente de poder',
     description: 'Es una fuente de poder de 550W, 80+ Plus Platinum, ideal para PCs de gama media.',
     price: 82990,
-    image: './img/Fuente2.webp' 
+    image: '../img/Fuente2.webp' 
   },
   {
     id: 2,
     name: 'Gabinete',
     description: 'Este gabinete ATX de alta calidad ofrece un diseño elegante y una excelente ventilación para mantener tus componentes frescos.',
     price: 75990,
-    image: './img/Gabinete.webp'
+    image: '../../public/img/Gabinete.webp'
   },
   {
     id: 3,
